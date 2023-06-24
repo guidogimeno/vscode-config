@@ -1,2 +1,2 @@
-# vscode-config
-VSCode confinguration
+# VSCode Config
+VSCode Confinguration
