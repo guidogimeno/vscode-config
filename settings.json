@@ -32,6 +32,7 @@
 	"javascript.format.enable": false,
 	"window.closeWhenEmpty": true,
 	"diffEditor.renderIndicators": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
 	"go.buildFlags": [
 		"-v"
 	],
@@ -39,6 +40,13 @@
 	"go.autocompleteUnimportedPackages": true,
 	"go.testEnvFile": "",
 	"go.toolsManagement.autoUpdate": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
 	"editor.cursorSurroundingLines": 10,
 	"workbench.enableExperiments": false,
 	"workbench.activityBar.visible": false,
@@ -50,5 +58,5 @@
 	"editor.wordWrap": "off",
 	"extensions.ignoreRecommendations": true,
 	"editor.guides.indentation": false,
-	"workbench.colorTheme": "Gruvbox Dark Hard",
+	"workbench.colorTheme": "Gruvbox Dark Hard"
 }
