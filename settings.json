@@ -100,6 +100,30 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
+        "}",
+      ],
+      "commands": [
+        "extension.vim_ctrl+d",
+      ],
+      "after": [
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "{",
+      ],
+      "commands": [
+        "extension.vim_ctrl+u"
+      ],
+      "after": [
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
         "g",
         "h"
       ],
@@ -225,5 +249,5 @@
   "editor.wordWrap": "off",
   "extensions.ignoreRecommendations": true,
   "editor.guides.indentation": false,
-  "workbench.colorTheme": "Gruvbox Dark Hard"
+  "workbench.colorTheme": "Gruvbox Dark Hard",
 }
